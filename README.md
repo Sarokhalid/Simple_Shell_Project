@@ -54,6 +54,7 @@ There are two ways to run program:
 2/gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o shell
 ./shell
 
+NOTE: In our project  we using Ubuntu to run our program
 ```
 
 Type commands and press Enter to execute. Use Ctrl-C or Ctrl-Z to handle signals.

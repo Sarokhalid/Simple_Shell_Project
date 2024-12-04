@@ -19,6 +19,7 @@ This project is a collaborative effort by the following individuals:
 ### Introduction
 
 The shell program is a command-line interpreter that allows users to execute commands and manage a command history. This program is implemented in C and provides various functionalities like executing commands, changing directories, and maintaining a command history.                      
+The program handles both interactive and batch mode. in intractive mode the program waits for user input , reads commands, inserts them into the command history, and executes them,. In a batch mode , the program reads commands from files, inserts them into the command history, and executes them.
 
 ------------------------------------------------------
 
@@ -43,9 +44,14 @@ Usage
 -----
 
 ```
-git clone https://github.com/Sarokhalid/simple_shell.git
-cd simple_shell
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o shell
+git clone https://github.com/Sarokhalid/Simple_Shell_Project.git
+cd Simple_Shell_Project
+
+There are two ways to run program:
+
+1/ make shell or just use make
+
+2/gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o shell
 ./shell
 
 ```
@@ -56,7 +62,7 @@ Examples
 --------
 
 ```
-$ ./shell
+$ ./shell or make shell
 $ ls
 file1 file2
 $ cat file1

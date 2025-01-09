@@ -313,7 +313,50 @@ VII - Environment variable operations (environment_variable_operations.c):
     -   Return Value:
         -   `char *` - The value of the environment variable.
 
+VIII - (_term.c):
+1. ** *_trim **:
+    -   Description: Trims leading and trailing whitespace characters from a string
+    - Parameters:
+	 - char * str: The string to be trimmed.
+    - Return Value:
+	 A pointer to the trimmed string, or NULL if str is NULL
+2. - ** _isspace **
+    - Description:
+	 - Checks if a character is a whitespace character.
+    - Parameters:
+   	- char c: The character to be checked.
+    - Return Value:
+	- (1) if the character is a whitespace character, (0) otherwise.
+3. - **command_exists** 
 
+    - Description:
+	 - Checks if a command exists in the PATH or is a full path to an executable..
+    - Parameters:
+   	- char *cmd: The command to check.
+	- char **env: The environment variables array
+    - Return Value:
+	- (1) if the command exists, (0) otherwise.
+
+4. - **reset_args**:
+
+    - Description:
+	 - Resets the arguments array and argument count for the next command.
+    - Parameters:
+   	- char *args: The arguments array to reset.
+	- char *arg_count: The argument count to reset
+    - Return Value:
+	- Nothing
+
+5. - **print_string**:
+
+    - Description:
+	 - This function prints each character of the given string until it reaches
+ 	 the null terminator '\0'. It assumes that a valid null-terminated string
+ 	 is passed as an argument..
+    - Parameters:
+   	- char const char *string: The string to be printed
+    - Return Value:
+	- Nothing
 
 ---------------------------------------------------------------------------------------------------------
 Workflow

@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * handle_comments - Handles comments in the given command string.
+ * handle_comments - Handles comments in the given command string
  * @cmd: The command string to process.
  * This function modifies the command string by removing any comments
  * starting with a '#' symbol. If the '#' symbol is part of a word and

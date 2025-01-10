@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * main - Entry point of the program.
+ * main - Entry point of the program
  * @argc: The number of command-line arguments.
  * @argv: An array of strings containing the command-line arguments.
  * @env: The environment variables array

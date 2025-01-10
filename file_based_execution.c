@@ -3,7 +3,7 @@
 /**
  * execute_commands_from_file - reads and executes commands
  * from one or more input files specified in the command
- * line arguments.
+ * line arguments
  *
  * @argc:   The number of command line arguments.
  * @argv:   An array of strings containing the command line arguments.

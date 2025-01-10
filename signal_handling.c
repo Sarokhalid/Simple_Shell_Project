@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * handle_sigint - Handles the SIGINT signal (Ctrl+C) in the shell.
+ * handle_sigint - Handles the SIGINT signal (Ctrl+C) in the shell
  * @signum: The signal number.
  * Description: This function is a signal handler for the
  * SIGINT signal (Ctrl+C).

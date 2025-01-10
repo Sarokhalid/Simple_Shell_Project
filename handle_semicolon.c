@@ -2,7 +2,7 @@
 /**
  * handle_semicolon - Handles commands separated by
  * semicolons in a command string
- * @cmd: The command string to be processed.
+ * @cmd: The command string to be processed
  * @argv: An array of strings containing command line arguments.
  * @data: Pointer to the shell_data struct containing shell information.
  * @env: The environment variables array

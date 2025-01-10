@@ -1,7 +1,7 @@
 #include "shell.h"
 /**
  * insert_cmd - Inserts a command into the history list.
- * @data: Pointer to the shell_data struct.
+ * @data: Pointer to the shell_data struct
  * @cmd: Command string to be inserteted
  * Description: This function creates a new node, copies the command string
  * into the node, and inserts the node at the beginning of the history list

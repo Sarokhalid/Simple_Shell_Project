@@ -21,7 +21,7 @@
 
 /**
  * struct Node - Linked list node structure.
- * @cmd: Array to store the command string.
+ * @cmd: Array to store the command string
  * @next: Pointer to the next node in the linked list.
  * Description: This structure represents a node in a linked list. It contains
  * a fixed-size array `cmd` to store the command string and a

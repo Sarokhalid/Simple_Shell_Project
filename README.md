@@ -1,20 +1,29 @@
 ## Shell Program Documentation
 
+## Project Details
+- Project Name: Unix Simple Shell
+- Project Description: A simple shell project in C89
+
 ### Authors
 
 This project is a collaborative effort by the following individuals:
 
 ## Sara Khalid Mustafa
+- Major: Computer Science
+- Index : 18-328
 - Email: saramustafa1842002@gmail.com
 ## Yousra Hassan Omer Hassan
+- Major: Computer Science
+- Index : 18-341
 - Email: Yousrah912@gmail.com
 ## Amna Hussien Adam Ahmed
-- Email: amnahussin88@gmail.com
-## Project Details
-- Project Name: Unix Simple Shell
-- Project Description: A simple shell project in C89 
+- Major: Statistics + Computer Science
+- Index : 17-219
+- Email: amnahussin88@gmail.com 
 ## Rawan Ezz Eldeen Sayed Mohammed 
- - Email: rwnhr5152@gmail.com
+- Major: Computer Science
+- Index : 18-324
+- Email: rwnhr5152@gmail.com
 
 ### Introduction
 
@@ -47,9 +56,9 @@ Usage
 git clone https://github.com/Sarokhalid/Simple_Shell_Project.git
 cd Simple_Shell_Project
 
-There are two ways to run program:
+###There are two ways to run program:
 
-1/ make shell or just use make
+1/ make  or  use make shell
 
 2/gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o shell
 ./shell
@@ -68,6 +77,9 @@ $ ls
 file1 file2
 $ cat file1
 Hello World!
+$ls; echo hi
+file1 file2
+hi
 ```
 
 ### Code Structure:
